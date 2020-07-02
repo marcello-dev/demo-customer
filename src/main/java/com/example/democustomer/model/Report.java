@@ -15,7 +15,7 @@ import lombok.Setter;
 
 @Entity
 @Getter @Setter @NoArgsConstructor
-public class Statistic {
+public class Report {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private @Id Long id;
     
@@ -24,7 +24,7 @@ public class Statistic {
 
     private long totalCustomers;
 
-    public Statistic(long totalCustomers) {
+    public Report(long totalCustomers) {
         this.creationDate = new Date();
         this.totalCustomers = totalCustomers;
     }
