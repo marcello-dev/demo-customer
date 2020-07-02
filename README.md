@@ -1,4 +1,4 @@
 # demo-customer
-Demo Spring Boot app to manage customers.
+Spring Boot application to manage customers and create statistics.
 
 The manifest.yml file is to deploy the application to Pivotal Platform
